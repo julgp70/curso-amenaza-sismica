@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Curso intermedio/avanzado de modelación de la amenaza sísmica con herramientas abiertas y un caso de estudio aplicado a La Española.">
+  <meta name="author" content="Julio Antonio García Peláez">
+  <meta name="theme-color" content="#071A2B">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Amenaza Sísmica">
+  <meta property="og:title" content="Curso intermedio/avanzado de modelación de la amenaza sísmica">
+  <meta property="og:description" content="Formación aplicada para construir, implementar, calcular, analizar e interpretar modelos de amenaza sísmica. Caso de estudio: La Española.">
+  <meta property="og:url" content="https://julgp70.github.io/curso-amenaza-sismica/">
+  <meta property="og:image" content="https://julgp70.github.io/curso-amenaza-sismica/images/tarjeta-social-curso-20260717.png?v=2600">
+  <meta property="og:image:secure_url" content="https://julgp70.github.io/curso-amenaza-sismica/images/tarjeta-social-curso-20260717.png?v=2600">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Ruta de aprendizaje del curso de modelación de la amenaza sísmica: modelo conceptual, componentes SSM-GMM-LTR, implementación, cálculo, resultados, análisis e interpretación.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Curso intermedio/avanzado de modelación de la amenaza sísmica">
+  <meta name="twitter:description" content="Formación aplicada para construir, implementar, calcular, analizar e interpretar modelos de amenaza sísmica. Caso de estudio: La Española.">
+  <meta name="twitter:image" content="https://julgp70.github.io/curso-amenaza-sismica/images/tarjeta-social-curso-20260717.png?v=2600">
+  <meta name="twitter:image:alt" content="Ruta de aprendizaje del curso de modelación de la amenaza sísmica: modelo conceptual, componentes SSM-GMM-LTR, implementación, cálculo, resultados, análisis e interpretación.">
+  <link rel="canonical" href="https://julgp70.github.io/curso-amenaza-sismica/">
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <title>Curso intermedio/avanzado de modelación de la amenaza sísmica</title>
+  <link rel="stylesheet" href="css/styles.css?v=742fde1e8013">
+  <script defer src="js/script.js?v=e01c09464c0c"></script>
+</head>
+<body data-site-version="26_REVISION_FINAL_GEM_PRIVACIDAD_PRECONTRACTUAL" data-layout-version="25.5_AJUSTE_POSICION_PANELES">
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header" data-header>
+  <div class="container nav-wrap">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" focusable="false">
+          <path d="M4 27h8l3-11 5 22 5-30 5 24 4-11 3 6h7"></path>
+        </svg>
+      </span>
+      <span class="brand-copy">
+        <strong>Amenaza Sísmica</strong>
+        <small>Modelación aplicada · La Española</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span><span class="sr-only">Abrir menú</span>
+    </button>
+
+    <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+      <a href="#curso">El curso</a>
+      <a href="#herramientas">Herramientas</a>
+      <a href="#programa">Programa</a>
+      <a href="#proyecto-final">Proyecto final</a>
+      <a href="#instructor">Instructores</a>
+      <a href="#requisitos">Requisitos</a>
+      <a class="button button-small" href="#interes">Registrar interés</a>
+    </nav>
+  </div>
+</header>
+
+<div class="mobile-nav-backdrop" data-nav-backdrop aria-hidden="true"></div>
+
+<main id="contenido">
+  <section id="inicio" class="hero section section-anchor">
+    <div class="hero-grid-overlay" aria-hidden="true"></div>
+    <div class="container hero-layout">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span>Curso virtual · Nivel intermedio/avanzado · Caso de estudio: La Española</p>
+        <h1>Modelación de la amenaza sísmica con herramientas de código abierto</h1>
+        <p class="hero-subtitle">Del conocimiento sismotectónico a un modelo trazable, reproducible y defendible</p>
+        <p class="hero-intro">Fortalece tu capacidad para tomar decisiones técnicas sólidas durante la creación de un modelo de amenaza sísmica. Aprenderás a transformar información tectónica y sismológica en un modelo complejo mediante OQ-MBTK y OpenQuake Engine, herramientas de código abierto del ecosistema OpenQuake impulsado por GEM Foundation.</p>
+
+        <div class="tool-strip" aria-label="Herramientas principales">
+<span>OQ-MBTK</span><span>OpenQuake Engine</span><span>Python</span><span>QGIS + IRMT</span>        </div>
+
+        <div class="button-row">
+          <a class="button" href="#interes">Registrar mi interés</a>
+          <a class="button button-ghost" href="#programa">Explorar el programa</a>
+        </div>
+
+        <div class="hero-stats" aria-label="Datos principales del curso">
+          <div><strong>10</strong><span>módulos técnicos</span></div>
+          <div><strong>60 h</strong><span>duración propuesta</span></div>
+          <div><strong>2</strong><span>sesiones por semana</span></div>
+        </div>
+
+        <!-- === INICIO 25.3: CREDIBILIDAD INTERNA ESTABLE === -->
+        <div
+          class="hero-credibility hero-credibility--inside"
+          aria-label="Aspectos destacados"
+        >
+          <div class="credibility-item reveal">
+            <span aria-hidden="true">
+              01
+            </span>
+            <p>Dirección académica a cargo de un especialista senior en modelación de amenaza sísmica</p>
+          </div>
+          <div class="credibility-item reveal">
+            <span aria-hidden="true">
+              02
+            </span>
+            <p>Experiencia comprobada en el desarrollo y uso del ecosistema OpenQuake</p>
+          </div>
+          <div class="credibility-item reveal">
+            <span aria-hidden="true">
+              03
+            </span>
+            <p>Exposiciones técnicas, demostraciones guiadas y ejercicios prácticos integrados</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-model reveal" aria-label="Ruta técnica del curso">
+        <figure class="approved-learning-panel">
+          <img
+            src="images/ruta-aprendizaje-aprobada.png"
+            width="1448"
+            height="1086"
+            alt="Ruta de aprendizaje del curso: modelo conceptual; componentes del modelo SSM, GMM y LTR; implementación, cálculo y resultados; análisis e interpretación. Debajo se presentan los diez módulos técnicos."
+            loading="eager"
+            decoding="async"
+          >
+          <figcaption class="sr-only">
+            La ruta de aprendizaje recorre cuatro etapas y diez módulos técnicos, desde el modelo conceptual hasta el análisis e interpretación de resultados.
+          </figcaption>
+        </figure>
+
+        <div class="hero-model-accessible sr-only">
+          <h2>Ruta de aprendizaje</h2>
+          <ol>
+            <li>01. Modelo conceptual</li>
+            <li>02. Componentes del modelo: SSM · GMM · LTR</li>
+            <li>03. Implementación, cálculo y resultados</li>
+            <li>04. Análisis e interpretación</li>
+          </ol>
+          <h2>Diez módulos técnicos</h2>
+          <ol>
+            <li>01. Marco conceptual y alcance: fundamentos, metodologías y estándares</li>
+            <li>02. Análisis probabilístico: modelo conceptual y componentes principales</li>
+            <li>03. Ecosistema computacional: herramientas, cálculo y representación</li>
+            <li>04. Modelo de fuentes sísmicas: tipos, geometría y caracterización</li>
+            <li>05. Modelos de movimiento: definición, selección y verificación</li>
+            <li>06. Modelo de incertidumbres: alternativas, árboles lógicos y pesos</li>
+            <li>07. Implementación y verificación: configuración y control técnico</li>
+            <li>08. Ejecución y revisión: operación y errores frecuentes</li>
+            <li>09. Análisis e interpretación: mapas, curvas, UHS y desagregación</li>
+            <li>10. Proyecto final: modelo, cálculo, resultados y defensa</li>
+          </ol>
+        </div>
+      </div>    </div>
+</section>
+
+  <section id="curso" class="section section-anchor challenge-section">
+    <div class="container section-frame">
+      <div class="section-heading section-heading--wide reveal">
+        <p class="kicker">El reto técnico</p>
+        <h2>Un curso básico no basta: los modelos de amenaza sísmica son cada día más complejos</h2>
+      </div>
+
+      <div class="challenge-grid">
+        <article class="challenge-card reveal">
+          <span class="card-number">01</span>
+          <h3>Modelos complejos que no se aprovechan plenamente</h3>
+          <p>Los modelos avanzados desarrollados por distintos equipos especializados integran fuentes sismogénicas complejas, modelos de movimiento del terreno, árboles lógicos y configuraciones de cálculo avanzadas. Sin una formación más profunda, resulta difícil revisar sus supuestos, modificar sus componentes y utilizar plenamente sus posibilidades de análisis.</p>
+        </article>
+        <article class="challenge-card reveal">
+          <span class="card-number">02</span>
+          <h3>Conocimiento local que no llega al modelo</h3>
+          <p>Aunque existan nuevos datos y un estado del conocimiento suficiente para mejorar la representación de la amenaza, esa información no se convierte automáticamente en un modelo más avanzado. Para hacerlo es necesario dominar OQ-MBTK, OpenQuake Engine y los algoritmos que sustentan la modelación.</p>
+        </article>
+        <article class="challenge-card reveal">
+          <span class="card-number">03</span>
+          <h3>Capacidades insuficientes para revisar y actualizar</h3>
+          <p>Cuando la formación se limita al uso básico del motor de cálculo, la construcción, implementación y actualización de los modelos continúa dependiendo de especialistas externos. Esto reduce la autonomía técnica y retrasa la incorporación de nueva evidencia científico-técnica.</p>
+        </article>
+      </div>
+
+      <p class="section-conclusion reveal">El curso busca cerrar esas brechas de conocimiento, modelación y uso de herramientas, fortaleciendo capacidades locales para comprender, utilizar, revisar y desarrollar modelos complejos con un alto nivel científico-técnico.</p>
+    </div>
+  </section>
+
+  <section id="herramientas" class="section section-anchor tools-section">
+    <div class="container section-frame">
+      <div class="section-heading section-heading--light reveal">
+        <p class="kicker">Ecosistema de trabajo</p>
+        <h2>Un flujo integrado: construir, calcular, representar y analizar</h2>
+        <p>Cada herramienta cumple una función específica dentro del proceso de modelación y se conecta con las demás mediante insumos y resultados verificables.</p>
+      </div>
+
+      <div class="tools-pipeline" aria-label="Flujo integrado de herramientas">
+        <article class="tool-card tool-card--oq-mbtk reveal">
+          <div class="tool-card-top">
+            <span class="tool-step">01</span>
+            <div class="tool-symbol" aria-hidden="true">
+              <svg viewBox="0 0 56 56"><circle cx="12" cy="28" r="5"></circle><circle cx="44" cy="13" r="5"></circle><circle cx="44" cy="43" r="5"></circle><path d="M17 28h11m0 0 11-13m-11 13 11 13"></path></svg>
+            </div>
+          </div>
+          <p class="mini-kicker">Diseño, construcción y verificación</p>
+          <h3>OQ-MBTK</h3>
+          <p>Herramienta modular para diseñar, construir y verificar los componentes del modelo de amenaza sísmica.</p>
+          <div class="tool-output"><span>Salida</span><strong>Modelos y árboles lógicos</strong></div>
+        </article>
+<span class="pipeline-arrow" aria-hidden="true">→</span>        <article class="tool-card tool-card--oq-engine reveal">
+          <div class="tool-card-top">
+            <span class="tool-step">02</span>
+            <div class="tool-symbol" aria-hidden="true">
+              <svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="10"></circle><path d="M28 6v8m0 28v8M6 28h8m28 0h8M12 12l6 6m20 20 6 6m0-32-6 6M18 38l-6 6"></path></svg>
+            </div>
+          </div>
+          <p class="mini-kicker">Implementación y cálculo</p>
+          <h3>OpenQuake Engine</h3>
+          <p>Motor de cálculo en el que se implementa el modelo y se ejecutan los cálculos probabilísticos y determinísticos.</p>
+          <div class="tool-output"><span>Salida</span><strong>Curvas, mapas, UHS y desagregación</strong></div>
+        </article>
+<span class="pipeline-arrow" aria-hidden="true">→</span>        <article class="tool-card tool-card--qgis-irmt reveal">
+          <div class="tool-card-top">
+            <span class="tool-step">03</span>
+            <div class="tool-symbol" aria-hidden="true">
+              <svg viewBox="0 0 56 56"><path d="m7 16 21-9 21 9-21 9-21-9Z"></path><path d="m7 28 21 9 21-9M7 40l21 9 21-9"></path></svg>
+            </div>
+          </div>
+          <p class="mini-kicker">Representación y análisis</p>
+          <h3>QGIS + IRMT</h3>
+          <p>Entorno para organizar datos espaciales, ejecutar flujos conectados con OpenQuake y representar resultados georreferenciados.</p>
+          <div class="tool-output"><span>Salida</span><strong>Cartografía y productos interpretables</strong></div>
+        </article>
+      </div>
+
+      <aside class="license-disclosure reveal" aria-label="Información sobre herramientas y licencias">
+        <strong>Herramientas y datos del curso</strong>
+        <p>El curso utilizará materiales didácticos originales y recursos de terceros únicamente conforme a sus licencias aplicables.</p>
+        <p>OQ OpenQuake y GEM Global Earthquake Model son marcas registradas de GEM Foundation. Las herramientas de terceros conservan sus propias licencias.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="programa" class="section section-anchor program-section">
+    <div class="container program-layout">
+      <div class="program-overview reveal">
+        <div class="section-heading">
+          <p class="kicker">Programa · propuesta de organización</p>
+          <h2>Una ruta completa de modelación</h2>
+          <p>El curso se organiza en etapas sucesivas que recorren el proceso completo: desde el marco conceptual y el entorno de trabajo hasta la construcción del modelo, su implementación, el cálculo y la interpretación de los resultados.</p>
+        </div>
+
+        <div class="program-metrics">
+          <div><strong>60 horas</strong><span>duración total</span></div>
+          <div><strong>2 sesiones por semana</strong><span>4 horas por sesión</span></div>
+        </div>
+
+        <div class="session-format">
+          <div><span>2 h</span><p>Presentaciones técnicas y demostraciones guiadas</p></div>
+          <div><span>2 h</span><p>Ejercicios prácticos sobre los contenidos abordados</p></div>
+        </div>
+        <p class="program-note">La duración asignada a cada módulo podrá ajustarse según su complejidad y las necesidades del grupo.</p>
+      </div>
+
+      <div class="program-roadmap">
+        <p class="program-reference">Los diez módulos se presentan en la ruta inicial del curso; aquí se muestra cómo se agrupan dentro del programa.</p>
+        <div class="roadmap-line" aria-hidden="true"></div>
+        <article class="roadmap-stage reveal">
+          <span class="roadmap-node">01</span>
+          <div class="roadmap-copy"><p>Módulos 1–3</p><h3>Marco conceptual y entorno de trabajo</h3></div>
+          <span class="roadmap-range">01 · 02 · 03</span>
+        </article>
+        <article class="roadmap-stage reveal">
+          <span class="roadmap-node">02</span>
+          <div class="roadmap-copy"><p>Módulos 4–6</p><h3>Construcción del modelo de amenaza</h3></div>
+          <span class="roadmap-range">04 · 05 · 06</span>
+        </article>
+        <article class="roadmap-stage reveal">
+          <span class="roadmap-node">03</span>
+          <div class="roadmap-copy"><p>Módulos 7–8</p><h3>Implementación y cálculo</h3></div>
+          <span class="roadmap-range">07 · 08</span>
+        </article>
+        <article class="roadmap-stage reveal">
+          <span class="roadmap-node">04</span>
+          <div class="roadmap-copy"><p>Módulo 9</p><h3>Análisis e interpretación</h3></div>
+          <span class="roadmap-range">09</span>
+        </article>
+        <article class="roadmap-stage reveal">
+          <span class="roadmap-node">05</span>
+          <div class="roadmap-copy"><p>Módulo 10</p><h3>Trabajo final de curso</h3></div>
+          <span class="roadmap-range">10</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyecto-final" class="section section-anchor final-project-section">
+    <div class="final-project-grid-bg" aria-hidden="true"></div>
+    <div class="container section-frame">
+      <div class="section-heading section-heading--light section-heading--wide reveal">
+        <p class="kicker">Aplicación integral · Proyecto final</p>
+        <h2>Del modelo a la defensa de los resultados</h2>
+        <p>El curso culmina con un proyecto aplicado de amenaza sísmica para una microrregión de La Española. Los participantes integrarán lo aprendido para diseñar, construir e implementar el modelo, ejecutar los cálculos y analizar los resultados obtenidos.</p>
+      </div>
+
+      <div class="project-stage-grid">
+        <article class="project-stage reveal">
+          <span class="project-number">01</span>
+          <h3>Diseño y construcción</h3>
+          <p>Definición del contexto sismotectónico, preparación de los insumos y construcción de los componentes del modelo de amenaza.</p>
+          <span class="project-tag">SSM · GMM · árboles lógicos</span>
+        </article>
+        <article class="project-stage reveal">
+          <span class="project-number">02</span>
+          <h3>Implementación y cálculo</h3>
+          <p>Implementación del modelo en OpenQuake Engine, configuración de los parámetros, ejecución de los cálculos y control técnico del proceso.</p>
+          <span class="project-tag">OQ-MBTK · OpenQuake Engine</span>
+        </article>
+        <article class="project-stage reveal">
+          <span class="project-number">03</span>
+          <h3>Resultados y defensa técnica</h3>
+          <p>Análisis, visualización e interpretación de los resultados, seguidos de la presentación y defensa de las decisiones de modelación.</p>
+          <span class="project-tag">QGIS · interpretación · defensa</span>
+        </article>
+      </div>
+
+      <div class="project-footer reveal">
+        <p>El alcance se adaptará al número de participantes, al tiempo asignado por los instructores y a la complejidad de la microrregión seleccionada. El trabajo se desarrollará en parejas o en grupos de tres o cuatro personas.</p>
+        <strong>Completar los módulos no será suficiente: el proyecto final deberá demostrar la capacidad de integrar y aplicar lo aprendido en un caso real.</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="instructor" class="section section-anchor teachers-section">
+    <div class="container section-frame">
+      <div class="section-heading reveal">
+        <p class="kicker">El equipo docente</p>
+        <h2>Experiencia técnica aplicada al proceso completo de modelación</h2>
+      </div>
+
+      <div class="teacher-grid">
+        <article class="teacher-card reveal">
+          <div class="teacher-identity">
+            <div class="teacher-avatar" aria-hidden="true"><span>JAGP</span></div>
+            <div><h3>Julio Antonio García Peláez, PhD</h3><p class="teacher-role">Instructor principal · Dirección académica y técnica</p></div>
+          </div>
+          <p class="teacher-bio">Especialista senior en modelación de la amenaza sísmica, con más de 20 años de experiencia en el desarrollo, implementación y análisis de modelos probabilistas regionales y nacionales. Ha dirigido y participado en proyectos de GEM Foundation en América Latina y el Caribe y actualmente lidera el desarrollo del modelo utilizado para la actualización del código de construcción de la República Dominicana.</p>
+          <div class="tag-list" aria-label="Áreas relevantes">
+<span>Modelación PSHA</span><span>OQ-MBTK y OpenQuake Engine</span><span>Python y GIS</span><span>Análisis de resultados</span>          </div>
+        </article>
+        <article class="teacher-card reveal">
+          <div class="teacher-identity">
+            <div class="teacher-avatar" aria-hidden="true"><span>JGH</span></div>
+            <div><h3>José Gandarillas Hevia</h3><p class="teacher-role">Asistente técnico · Datos, SIG y soporte operativo</p></div>
+          </div>
+          <p class="teacher-bio">Ingeniero geofísico con más de 30 años de experiencia en datos geoespaciales, bases de datos, SIG y administración de entornos computacionales. Durante el curso prestará apoyo en la preparación y control de calidad de datos, el trabajo con QGIS, la configuración de herramientas y la resolución de incidencias operativas.</p>
+          <div class="tag-list" aria-label="Áreas relevantes">
+<span>Datos geoespaciales y QA</span><span>QGIS y cartografía</span><span>Python y SQL</span><span>Soporte multiplataforma</span>          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="requisitos" class="section section-anchor requirements-section">
+    <div class="container requirements-layout">
+      <div class="section-heading reveal">
+        <p class="kicker">Antes de comenzar</p>
+        <h2>Requisitos para participar</h2>
+        <p class="requirements-advantage">Python y QGIS no son requisitos obligatorios, pero un conocimiento básico de ambos aporta una ventaja operativa importante durante el curso.</p>
+      </div>
+
+      <div class="requirements-grid">
+        <article class="requirement-card reveal">
+          <div class="requirement-heading"><span>01</span><h3>Conocimiento previo</h3></div>
+          <p>Se requiere una base científico-técnica mínima en modelación de la amenaza sísmica, probabilística o determinística. El curso es de nivel intermedio/avanzado y no está concebido como introducción para principiantes.</p>
+          <ul><li>Conocimientos básicos de PSHA y/o DSHA</li><li>Familiaridad con fuentes sismogénicas, recurrencia y modelos de movimiento del terreno</li><li>Capacidad para seguir criterios y procedimientos técnicos</li></ul>
+          <p class="requirement-note">No se exige una profesión específica, pero sí conocimientos suficientes para trabajar con los contenidos del curso.</p>
+        </article>
+        <article class="requirement-card reveal">
+          <div class="requirement-heading"><span>02</span><h3>Requisitos técnicos y operativos</h3></div>
+          <p>Cada participante deberá disponer de una computadora, conexión estable a internet y manejo básico de archivos, carpetas, tablas y datos espaciales.</p>
+          <ul><li>Computadora personal</li><li>Conexión estable a internet</li><li>Manejo básico de archivos, carpetas y tablas</li><li>Trabajo básico con datos espaciales</li></ul>
+          <p class="requirement-note">El entorno computacional será preparado previamente y configurado con los participantes durante la primera sesión.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="interes" class="section section-anchor interest-section">
+    <div class="container interest-layout">
+      <div class="interest-copy reveal">
+        <p class="kicker">Registro de interés</p>
+        <h2>Ayúdanos a determinar si existe un grupo suficiente</h2>
+        <p>Completa el formulario para indicar tu perfil, experiencia e interés principal. La información permitirá valorar la viabilidad y organización de una posible edición virtual del curso.</p>
+      </div>
+
+      <div class="interest-action reveal">
+        <div class="interest-symbol" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><path d="M10 48h10l5-20 8 30 8-42 7 32h6"></path></svg>
+        </div>
+        <a class="button button-light" href="https://forms.gle/pEpVdqaXQ6VpX9ZE9" target="_blank" rel="noopener noreferrer external" referrerpolicy="strict-origin-when-cross-origin" aria-describedby="interest-legal-notice">Abrir formulario de interés</a>
+        <div id="interest-legal-notice" class="interest-legal-note">
+          <strong>Este formulario recoge únicamente manifestaciones de interés. No constituye matrícula, reserva, oferta contractual ni obligación de pago.</strong>
+          <p>Los datos se utilizarán exclusivamente para valorar la viabilidad del curso, organizar una posible edición y contactar a las personas interesadas sobre esta iniciativa.</p>
+          <p>Al abrir el formulario se accede a Google Forms, un servicio externo sujeto a las políticas de Google. Consulta antes nuestra <a href="privacidad-y-cookies.html">Política de privacidad y cookies</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container legal-footer">
+    <div class="legal-footer-main">
+      <div class="footer-brand">
+        <strong>Amenaza Sísmica</strong>
+        <span>Modelación aplicada · La Española</span>
+      </div>
+      <p><strong>Manifestación de interés únicamente: sin matrícula, reserva ni obligación de pago.</strong> Curso independiente, no organizado, patrocinado, avalado ni certificado por GEM Foundation.</p>
+    </div>
+    <nav class="legal-links" aria-label="Información legal">
+      <a href="privacidad-y-cookies.html">Privacidad y cookies</a>
+      <a href="aviso-legal.html">Aviso legal</a>
+      <a href="propiedad-intelectual-y-licencias.html">Propiedad intelectual y licencias</a>
+    </nav>
+    <div class="legal-footer-meta">
+      <span>© 2026 Julio Antonio García Peláez</span>
+      <span>P. IVA 01429970328</span>
+      <a href="mailto:julgp70@gmail.com">julgp70@gmail.com</a>
+    </div>
+    <p class="legal-footer-small">El código propio del sitio no utiliza cookies de analítica, publicidad o perfilado. El curso utilizará materiales didácticos originales y recursos de terceros únicamente conforme a sus licencias aplicables.</p>
+  </div>
+</footer>
+</body>
+</html>
